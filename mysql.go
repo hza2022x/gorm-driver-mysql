@@ -2,7 +2,7 @@ package mysql
 
 import (
 	"context"
-	"database/sql"
+	"dbpool"
 	"fmt"
 	"math"
 	"regexp"

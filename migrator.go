@@ -1,7 +1,7 @@
 package mysql
 
 import (
-	"database/sql"
+	"dbpool"
 	"fmt"
 	"strconv"
 	"strings"
