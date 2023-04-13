@@ -1,4 +1,4 @@
-module gorm.io/driver/mysql
+module gorm.io/mysql
 
 go 1.18
 
