@@ -4,7 +4,8 @@ go 1.18
 
 require (
 	github.com/go-sql-driver/mysql v1.7.0
-	gorm.io/gorm v0.0.0-00010101000000-000000000000
+	gorm.io/gorm v0.0.1
+	gorm.io/dbpool v0.0.1
     //gorm.io/gorm v1.24.7-0.20230306060331-85eaf9eeda11
 )
 
@@ -14,6 +15,6 @@ require (
 )
 
 replace (
-	dbpool => ../dbpool
+	gorm.io/dbpool => ../dbpool
 	gorm.io/gorm => ../gorm
 )

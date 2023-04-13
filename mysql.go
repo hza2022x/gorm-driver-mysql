@@ -2,7 +2,6 @@ package mysql
 
 import (
 	"context"
-	"dbpool"
 	"fmt"
 	"math"
 	"regexp"
@@ -12,6 +11,7 @@ import (
 
 	"github.com/go-sql-driver/mysql"
 
+	"gorm.io/dbpool"
 	"gorm.io/gorm"
 	"gorm.io/gorm/callbacks"
 	"gorm.io/gorm/clause"

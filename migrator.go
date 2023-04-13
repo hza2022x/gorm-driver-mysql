@@ -1,11 +1,11 @@
 package mysql
 
 import (
-	"dbpool"
 	"fmt"
 	"strconv"
 	"strings"
 
+	"gorm.io/dbpool"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 	"gorm.io/gorm/migrator"
