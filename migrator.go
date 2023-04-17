@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"strings"
 
-	"gorm.io/dbpool"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 	"gorm.io/gorm/migrator"
 	"gorm.io/gorm/schema"
+	"gorm.io/sqlx"
 )
 
 const indexSql = `

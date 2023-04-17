@@ -3,6 +3,7 @@ package mysql
 import (
 	"context"
 	"fmt"
+	"gorm.io/sqlx"
 	"math"
 	"regexp"
 	"strconv"
@@ -11,7 +12,6 @@ import (
 
 	"github.com/go-sql-driver/mysql"
 
-	"gorm.io/dbpool"
 	"gorm.io/gorm"
 	"gorm.io/gorm/callbacks"
 	"gorm.io/gorm/clause"
