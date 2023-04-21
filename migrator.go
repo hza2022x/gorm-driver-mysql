@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"strings"
 
+	sql "gopkg.inshopline.com/commons/sqlx"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 	"gorm.io/gorm/migrator"
 	"gorm.io/gorm/schema"
-	"gorm.io/sqlx"
 )
 
 const indexSql = `

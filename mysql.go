@@ -3,7 +3,7 @@ package mysql
 import (
 	"context"
 	"fmt"
-	"gorm.io/sqlx"
+	sql "gopkg.inshopline.com/commons/sqlx"
 	"math"
 	"regexp"
 	"strconv"
